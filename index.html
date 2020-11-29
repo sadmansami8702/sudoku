@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="mo.css">
+        <title>SUDOKU</title>
+        <link rel="icon" href="icon.png"  sizes="16x16"> 
+    </head>
+
+    <style>
+        .body {
+    background-image: url(bgg.jpg);
+    margin: auto;
+    padding: 0;
+   
+}
+
+.header {
+    
+    text-align: center;
+    font-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color:  rgb(255, 115, 0);
+    text-align: center;
+    width: 100%;
+}
+
+.headerr {
+    background-color: rgb(255, 115, 0);
+    width: 100% ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-top: 20px;
+    align-content: center;
+    margin-bottom: 50px;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fca2a2;
+    color: white;
+  }
+
+.tableh {
+    font-size: 240%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.content {
+    text-align: center;
+    font-size: 200%
+}
+
+.myinputt {
+    width:99.5%;
+    margin-top:77px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    padding-left: 0px;
+    text-align: center;
+    left: 0;
+    right: 0;
+   
+
+
+}
+
+.tableh {
+    font-size: 200%;
+    color: black;
+}
+
+.rrr {
+    color: red;
+    margin-left: 7%;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 85%;
+  margin-left: 7%;
+  cursor: pointer;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+
+.bbb {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+}
+
+    </style>
+    
+
+    <body class="body">
+        <div class="headerr">
+            <div class="header">
+                <strong> SUDOKU </strong>
+             </div>
+        </div>
+
+        <input type="text" name="" id="myInput" placeholder="Serach your Certificate by your name 🔍" class="myinputt" onkeyup="searchFun()">
+        
+
+        
+
+        
+        <table id="myTable">
+            <tr>
+              <th class="tableh"><strong>Download Your Certificate</strong></th>
+            </tr>
+            <tr> <td class="content"><a href="sudoku-01.jpg" download> Golam Mostakim</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-02.jpg" download> Joyeeta Biswas</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-03.jpg" download> Fatema Tasnim Anindita</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-04.jpg" download> Tahsin Ahmed Badhon</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-05.jpg" download> Most,Nuzhat Tabachhum Neha</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-06.jpg" download> Auritro Mridha</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-07.jpg" download> Ayman Rasheed</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-08.jpg" download> Md.Shakil Ahmed</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-09.jpg" download> Rizvi Iqbal</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-10.jpg" download> Ahmed Swaroar</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-11.jpg" download> Md.Hasibuzzaman Siam</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-12.jpg" download> TANVIR RAHMAN DOHA</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-13.jpg" download> Farhan Mashuk</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-14.jpg" download> Vhule gesi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-15.jpg" download> R.Ratul</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-16.jpg" download> Miraz Hossain Chowdhury</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-17.jpg" download> Fazley Rabbi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-18.jpg" download> Farjana Rahman</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-19.jpg" download> Mredul</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-20.jpg" download> Shuvechcha Saha Bristy</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-21.jpg" download> Shuvra Saha Rimjim</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-22.jpg" download> Ambika Saha</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-23.jpg" download> Abdullah Rubayet</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-24.jpg" download> Sanzida afrin</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-25.jpg" download> Md.Rafsan Sobhan</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-26.jpg" download> Md. Fatin Farabi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-27.jpg" download> Sohag Mahmud</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-28.jpg" download> Afsana Akter</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-29.jpg" download> Ashfaqul Hasan</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-30.jpg" download> Md. Sadat Zobayer Soumik</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-31.jpg" download> Saad Bin Kabir</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-32.jpg" download> Jasiaha Hoque Himika</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-33.jpg" download> Chowdhury Azmain Mahmood</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-34.jpg" download> Muntasir Salman</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-35.jpg" download> Md.Ahnaf Intisar</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-36.jpg" download> Arnab Dev</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-37.jpg" download> Naziat Nayel Arshi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-38.jpg" download> Md Tareque Ahmed Rehab</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-39.jpg" download> Jawad Istiak Ohin</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-40.jpg" download> Sinthia Saiyara</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-41.jpg" download> Tasfia Nujhat Sinthi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-42.jpg" download> Zarin Tasnim</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-43.jpg" download> Samiur Rahman</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-44.jpg" download> K.T. Humaira</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-45.jpg" download> Zarin Tasneem Fariha</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-46.jpg" download> Humaira Chowdhury</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-47.jpg" download> Aalvee Aarham</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-48.jpg" download> Sidratul Muntaha</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-49.jpg" download> Fuad Kabir</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-50.jpg" download> Sabbir Ahmmed</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-51.jpg" download> Nasiv Hossain Suvo</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-52.jpg" download> Saleh Sadid Mir</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-53.jpg" download> Rahul Paul</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-54.jpg" download> Labib Mahfuz Tonay</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-55.jpg" download> Jarin Tasnim</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-56.jpg" download> Arittro Biswas</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-57.jpg" download> Md. Asir Musaddik Shakil</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-58.jpg" download> Maisha Samiha Binte Alam</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-59.jpg" download> Mehedi Hasan omi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-60.jpg" download> Nilesh Saha</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-61.jpg" download> Istiaque Zaman</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-62.jpg" download> Anika Sanzida Upoma</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-63.jpg" download> Md Abu Rubaiat Hossain</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-64.jpg" download> Md.Rafi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-65.jpg" download> Abrar Mahmud Hasan</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-66.jpg" download> S. M. Fahim Abrar</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-67.jpg" download> Mahdin Hasan</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-68.jpg" download> Naveed Mohammed Aziz</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-69.jpg" download> Mohsina Tabassum Rifa</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-70.jpg" download> Salman Abu Sakib</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-71.jpg" download> Tasnim Ul Alam</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-72.jpg" download> Nasrullah Zunayed Mashoar</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-73.jpg" download> Sayed Mashood Elahi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-74.jpg" download> Nusaiba Ansary Sara</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-75.jpg" download> Muhammad Asif</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-76.jpg" download> Nahian Ash-hab</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-77.jpg" download> Rahib Muntasir</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-78.jpg" download> Tonay Podder Joy</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-79.jpg" download> Adiba Tahsin</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-80.jpg" download> Ridwan Ul Islam</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-81.jpg" download> Mahim Mohammad Sahid Sadi</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-82.jpg" download> Abu Bakar Siddique</a></td> </tr> 
+<tr> <td class="content"><a href="sudoku-83.jpg" download> Taspia Showkat</a></td> </tr> 
+
+
+
+ 
+            
+            
+        </table>
+
+<script>
+    const searchFun = () => {
+        let filter = document.getElementById('myInput').value.toUpperCase();
+
+        let myTable = document.getElementById('myTable');
+
+        let tr = myTable.getElementsByTagName('tr');
+
+        for(var i=0; i<tr.length ; i++){
+            let td = tr[i].getElementsByTagName('td')[0];
+
+            if(td){
+                let textvalue = td.textContent || td.innerHTML;
+
+                if(textvalue.toUpperCase().indexOf(filter) > -1){
+                    tr[i].style.display = "";  
+                }else{
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+        
+    }
+</script>
+
+<div class="foooter">
+    <div class="footer">
+        <strong> Developed by SADMAN SAMI  </strong><br/>
+         <small class="small">&copy; TESLA LAB</small>
+     </div>
+</div>
+
+    </body>
+</html>
+
+
+
+
+
+
